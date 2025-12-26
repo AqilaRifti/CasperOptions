@@ -37,7 +37,7 @@ casper-options/
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-org/casper-options.git
+git clone https://github.com/AqilaRifti/CasperOptions
 cd casper-options
 
 # Start the frontend
