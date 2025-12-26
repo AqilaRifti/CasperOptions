@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+.kiro
+.vscode
+# Build outputs
+.next/
+out/
+dist/
+build/
+target/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+*.swp
+*.swo
+.vscode/settings.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Rust
+*.rs.bk
+Cargo.lock
+!contracts/*/Cargo.lock
+
+# Keys and secrets
+*.pem
+*.key
+secret_key*
+*.secret
+
+# Misc
+.turbo/
+.vercel/
+.cache/
+*.tsbuildinfo
